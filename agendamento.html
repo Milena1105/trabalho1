@@ -1,0 +1,62 @@
+        <!DOCTYPE html>
+        <html lang="pt">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="description" content="Clínica RML - Atendimento médico de qualidade. Agende consultas online e cuide da sua saúde com conforto.">
+            <link rel="shortcut icon" href="img/icon_logo.ico" type="image/x-icon">
+            <title>Clínica RML/Agendamento</title>
+        </head>
+        <body>
+            <nav>
+                <ul>
+                    <li><a href="index.html">🏠 Home</a></li>
+                </ul>
+            </nav>
+            <main>
+                <section>
+                    <h2>Agende sua Consulta</h2>
+                    <form>
+                        <label for="nome">Nome completo:</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite o nome completo" required><br><br>
+
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required><br><br>
+
+                        <label for="data">Data da consulta:</label>
+                        <input type="date" id="data" name="data" required><br><br>
+
+                        <label for="hora">Horário:</label>
+                        <input type="time" id="hora" name="hora" required><br><br>
+
+                        <label for="especialidade">Especialidade:</label>
+                        <select id="especialidade" name="especialidade" required>
+                            <option selected disabled>Selecione</option>
+                            <option value="clinica">Clínica Geral</option>
+                            <option value="dermatologia">Dermatologia</option>
+                            <option value="cardiologia">Cardiologia</option>
+                            <option value="">Oftamologia</option>
+                            <option value="">Ortopedia</option>
+                            <option value="">Pediatria</option>
+                        </select><br><br>
+
+                        <input type="submit" value="Agendar Consulta">
+                    </form>
+                    <details>
+                        <summary>Dicas para a sua consulta</summary>
+                        <p>Chegue 15 minutos antes do horário marcado e traga seus documentos de identificação e se puder, os exames anteriores.</p>
+                    </details>
+                </section>
+            </main>
+            <hr>
+            <footer>
+                <section>
+                    <a href="http://web.facebook.com/?_rdc=1&_rdr#" target="_blank" >
+                        <img src="img/facebook1.png" alt="facebook" title="ir para página" width="30">
+                    </a>
+                    <a href="https://goo.gl/maps/wBXx4vPkAmaa1sWYA" target="_blank"><img src="img/localização.png"  alt="Localização" title="localização da clínica" width="30"></a>
+                    <p>&copy; 2025 Clínica RML. Todos os direitos reservados</p>
+                </section>
+            </footer>
+        </body>
+        </html>
